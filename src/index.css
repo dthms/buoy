@@ -5,3 +5,7 @@
 /* purgecss end ignore */
 
 @tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}

@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Article() {
     return (
-        <section className="lg:px-20 text-lg lg:text-xl leading-8 space-y-10">
+        <section id="scroll" className="lg:px-20 text-lg lg:text-xl leading-8 space-y-10">
             <p>
             I’m in the process of building Buoy. I’ve opened up 
             early access so you can help support the project and 

@@ -13,7 +13,7 @@ class Home extends Component {
           <TitleSection
             title="Utility first design system"
             subtitle="A comprehensive design system built with implemention in mind. Buoy is an extremely scalable system built in Figma using Auto Layout V3 and Variants."
-            buttonOne="Buy Early Access"
+            buttonOne="Buy Now"
           />
           <div className="p-8 lg:p-20 bg-video-bg rounded-lg text-center">
             <img src={Video} alt="video" />

@@ -17,7 +17,7 @@ export default function Buy() {
                         <h3 className="inline-block text-4xl font-bold">$49</h3>
                         <span className="inline-block text-2xl text-gray-600">USD</span>
                     </div>
-                    <a href="#" className="py-3 px-4 inline-block text-white text-base font-medium bg-blue-600 rounded-md">Buy Now on Gumroad</a>
+                    <a href="https://gum.co/xxcmN?wanted=true" class="gumroad-button" className="py-3 px-4 inline-block text-white text-base font-medium bg-blue-600 rounded-md">Buy Now on Gumroad</a>
                 </div>
                 <div className="space-y-1 text-center">
                     <span className="block text-sm font-medium text-gray-600">You're one step away from lifetime access to Buoy.</span>

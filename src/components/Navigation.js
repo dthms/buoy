@@ -14,7 +14,7 @@ export default function Navigation() {
                     Changelog
                 </NavLink>
             </nav>
-            <a href="#" className="text-blue-600 font-bold">Buy Now</a>
+            <a href="https://gum.co/xxcmN?wanted=true" class="gumroad-button" className="text-blue-600 font-bold">Buy Now</a>
         </header>
     )
 }

@@ -14,7 +14,7 @@ export default function Navigation() {
                     Changelog
                 </NavLink> */}
             </nav>
-            <a href="https://twitter.com/intent/tweet?text=@danthms%20@joshuathorley" target="_blank" className="block text-blue-600 font-bold">Tweet us</a>
+            <a href="https://twitter.com/intent/tweet?text=@danthms%20@joshuathorley" target="_blank" className="block text-purple-600 font-bold">Tweet us</a>
         </header>
     )
 }

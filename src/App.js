@@ -1,32 +1,26 @@
 import React from 'react';
+import {
+  BrowserRouter,
+  Route,
+  Switch,
+  Redirect
+} from 'react-router-dom';
+
+import Navigation from './components/Navigation';
+
+import Home from './pages/Home';
+import Changelog from './pages/Changelog';
 
 function App() {
   return (
-    <div className="flex flex-col h-full items-center justify-center bg-gray-200 text-gray-700">
-      <div className="flex items-center">
-        <h1 className="text-6xl font-thin tracking-wider">Create React App + Tailwind CSS</h1>
-      </div>
-      <p className="my-6 tracking-wide">
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <div className="mt-32 flex justify-center">
-        <a
-          className="uppercase hover:underline"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <a
-          className="ml-10 uppercase hover:underline"
-          href="https://tailwindcss.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Tailwind
-        </a>
-      </div>
+    <div>
+      <BrowserRouter>
+        <Navigation />
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/changelog' component={Changelog} />
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

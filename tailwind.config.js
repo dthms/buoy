@@ -17,7 +17,10 @@ module.exports = {
       },
       backgroundImage: theme => ({
         'video-bg': "url('./video-bg.png')"
-      })
+      }),
+      inset: {
+        '-176': '-176px'
+      }
     }
   },
   variants: {},

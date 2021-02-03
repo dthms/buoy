@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Buy() {
     return (
-        <section className="flex flex-col items-center space-y-10 p-12 bg-gray-100 rounded-lg lg:space-x-16 lg:flex-row lg:p-20 lg:space-y-0">
+        <section className="flex flex-col items-center space-y-10 p-8 bg-gray-100 rounded-lg lg:space-x-16 lg:flex-row lg:p-20 lg:space-y-0">
             <div className="w-full lg:w-1/2">
                 <h1 className="tracking-tight text-6xl lg:text-7xl font-bold">Early access for all</h1>
                 <h6 className="text-lg lg:text-xl mt-7 text-gray-600">Product design is tricky business, Buoy takes care of the fundamentals for you and makes it easy to add your visual flare.</h6>

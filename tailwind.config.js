@@ -19,7 +19,8 @@ module.exports = {
         'video-bg': "url('./video-bg.png')"
       }),
       inset: {
-        '-176': '-176px'
+        '-176': '-170px',
+        '-240': "-360px"
       }
     }
   },

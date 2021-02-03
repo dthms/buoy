@@ -14,7 +14,7 @@ export default function Navigation() {
                     Changelog
                 </NavLink>
             </nav>
-            <a href="https://gum.co/xxcmN?wanted=true" class="gumroad-button" className="block text-blue-600 font-bold">Buy Now</a>
+            <a href="https://onkickoff.myshopify.com/cart/37414900334755:1?channel=buy_button" target="_blank" className="block text-blue-600 font-bold">Buy Now</a>
         </header>
     )
 }

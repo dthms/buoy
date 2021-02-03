@@ -8,7 +8,17 @@ module.exports = {
     './public/index.html',
   ],
   theme: {
-    extend: {}
+    fontFamily: {
+      'sans': ['Inter', 'ui-sans-serif', 'system-ui'],
+    },
+    extend: {
+      maxWidth: {
+        'container': '1200px'
+      },
+      backgroundImage: theme => ({
+        'video-bg': "url('./video-bg.png')"
+      })
+    }
   },
   variants: {},
   plugins: []

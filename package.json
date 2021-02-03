@@ -5,18 +5,18 @@
   "dependencies": {
     "@craco/craco": "^6.1.0",
     "@tailwindcss/postcss7-compat": "^2.0.2",
-    "autoprefixer": "^9",
-    "postcss": "^7",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "^4.0.0",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "craco react-scripts start",
     "start-all-interfaces": "HOST=0.0.0.0 react-scripts start",
-    "build": "craco build",
-    "test": "craco test",
+    "build": "craco react-scripts build",
+    "test": "craco react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

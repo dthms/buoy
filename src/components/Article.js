@@ -1,5 +1,8 @@
 import React from "react"
 
+import Dan from "../dan.png";
+import Josh from "../dan.png";
+
 export default function Article() {
     return (
         <section id="scroll" className="lg:px-20 text-lg lg:text-xl leading-8 space-y-10">
@@ -24,6 +27,10 @@ export default function Article() {
             <p>
             Thanks for checking in,
             </p>
+            <div className="w-1/5">
+                <img className="inline w-1/2" src={Dan} />
+                <img className="inline w-1/2" src={Josh} />
+            </div>
         </section>
     )
 }

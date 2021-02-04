@@ -5,6 +5,7 @@ import Article from "../components/Article";
 import Buy from "../components/Buy";
 
 import Video from "../video.png";
+import Test from "../test.mp4"
 
 class Home extends Component {
   render() {
@@ -15,8 +16,10 @@ class Home extends Component {
             subtitle="A comprehensive design system built with implemention in mind. Buoy is an extremely scalable system built in Figma using Auto Layout V3 and Variants."
             buttonOne="Buy Now"
           />
-          <div className="p-8 lg:p-20 bg-video-bg bg-cover rounded-lg text-center">
-            <img src={Video} alt="video" />
+          <div className="p-8 lg:p-20 bg-video-bg bg-cover rounded-lg text-center relative">
+            <video autoplay="autoplay" loop muted className="rounded-md shadow-lg">
+              <source src={Test} type="video/mp4" />
+            </video>
           </div>
           <Article />
           <Buy />

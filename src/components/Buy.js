@@ -9,7 +9,7 @@ export default function Buy() {
                 <h6 className="text-lg lg:text-xl mt-7 text-gray-600">This is the early access special, I’ve currently built ~25% of the system. I expect to complete 1.0.0 by the end of Q2 2021.</h6>
             </div>
             <div className="w-full h-full relative p-12 bg-white rounded-md text-center space-y-12 lg:w-auto">
-                <div className="bg-green-50 text-green-700 text-base text-center absolute -right-5 -top-5 font-bold border-4 border-gray-100 rounded-full pt-6 transform rotate-12 w-20 h-20">-50%</div>
+                <div className="bg-green-50 text-green-700 text-base text-center absolute -right-5 -top-5 font-bold border-8 border-white rounded-full pt-7 transform rotate-12 w-24 h-24">-50%</div>
                 <span className="text-lg text-gray-600">Pay once, own forever</span>
                 <div className="space-y-6">
                     <div className="space-x-2">

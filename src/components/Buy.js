@@ -5,8 +5,8 @@ export default function Buy() {
         <section className="flex flex-col items-center space-y-10 p-8 bg-gray-100 rounded-lg lg:space-x-16 lg:flex-row lg:p-20 lg:space-y-0">
             <div className="w-full lg:w-1/2">
                 <h1 className="tracking-tight text-6xl lg:text-6xl font-bold">Early access</h1>
-                <h6 className="text-lg lg:text-xl mt-7 text-gray-600">Product design is tricky business, Buoy takes care of the fundamentals for you and makes it easy to add your visual flare.</h6>
-                <h6 className="text-lg lg:text-xl mt-7 text-gray-600">This is the early access special, I’ve currently built ~25% of the system. I expect to complete 1.0.0 by the end of Q2 2021.</h6>
+                <h6 className="text-lg lg:text-xl mt-7 text-gray-600">Product design is tricky business. Buoy takes care of the fundamentals for you, leaving you to add your visual flare easily.</h6>
+                <h6 className="text-lg lg:text-xl mt-7 text-gray-600">This is an early access offering, We've built ~25% of the system. Expected completion of 1.0.0 is the end of Q2 2021.</h6>
             </div>
             <div className="w-full h-full relative p-12 bg-white rounded-md text-center space-y-12 lg:w-auto">
                 <div className="bg-green-50 text-green-700 text-base text-center absolute -right-5 -top-5 font-bold border-8 border-white rounded-full pt-7 transform rotate-12 w-24 h-24">-50%</div>

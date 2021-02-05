@@ -27,10 +27,7 @@ export default function Article() {
             <p>
             Thanks for checking in,
             </p>
-            <div className="w-1/5">
-                <img className="inline w-1/2" src={Dan} />
-                <img className="inline w-1/2" src={Josh} />
-            </div>
+            <img className="inline w-1/3 lg:w-1/5" src={Dan} />
         </section>
     )
 }

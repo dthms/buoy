@@ -16,7 +16,7 @@ class Home extends Component {
             subtitle="A comprehensive design system built with implemention in mind. Buoy is an extremely scalable system built in Figma using Auto Layout V3 and Variants."
             buttonOne="Buy Now"
           />
-          <div className="p-8 lg:p-20 bg-video-bg bg-cover rounded-lg text-center relative">
+          <div className="p-8 lg:p-20 rounded-lg text-center relative bg-gradient-to-r from-purple-400 via-red-300 to-alt-600">
             <video autoplay="autoplay" loop muted className="rounded-md shadow-lg">
               <source src={Test} type="video/mp4" />
             </video>

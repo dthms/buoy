@@ -4,7 +4,6 @@ import TitleSection from "../components/TitleSection";
 import Article from "../components/Article";
 import Buy from "../components/Buy";
 
-import Video from "../video.png";
 import Test from "../test.mp4"
 
 class Home extends Component {

@@ -11,6 +11,22 @@ module.exports = {
     fontFamily: {
       'sans': ['Inter', 'ui-sans-serif', 'system-ui'],
     },
+    fontSize : {
+      'body-xs': '0.75rem',
+      'body-sm': '0.875rem',
+      'body': '1rem',
+      'body-lg': '1.25rem',
+      'body-xl': '1.5rem',
+
+      'subheading': '0.75rem',
+
+      'heading-xs': '1.125rem',
+      'heading-sm': '1.5rem',
+      'heading': '2rem',
+      'heading-lg': '2.75rem',
+      'heading-xl': '3.5rem',
+      'heading-xxl': '4.5rem',
+    },
     colors: {
       transparent: 'transparent',
       currentColor: 'currentColor',

@@ -1,11 +1,89 @@
-/* purgecss start ignore */
 @tailwind base;
-
 @tailwind components;
-/* purgecss end ignore */
-
 @tailwind utilities;
 
 html {
     scroll-behavior: smooth;
+}
+
+.activeLink {
+    color: #422593;
+ }
+
+@layer base {
+    h1 {
+        @apply text-heading-xxl;
+        letter-spacing: -2.4px;
+        line-height: 80px;
+        font-weight: 700;
+        font-feature-settings: "ss02";
+    }
+
+    h2 {
+        @apply text-heading-xl;
+        letter-spacing: -2px;
+        line-height: 64px;
+        font-weight: 700;
+        font-feature-settings: "ss02";
+    }
+
+    h3 {
+        @apply text-heading-lg;
+        letter-spacing: -1.4px;
+        line-height: 52px;
+        font-weight: 700;
+        font-feature-settings: "ss02";
+    }
+
+    h4 {
+        @apply text-heading;
+        letter-spacing: -0.8px;
+        line-height: 40px;
+        font-weight: 700;
+        font-feature-settings: "ss02";
+    }
+
+    h5 {
+        @apply text-heading-sm;
+        letter-spacing: -0.2px;
+        line-height: 32px;
+        font-weight: 700;
+        font-feature-settings: "ss02";
+    }
+
+    h6 {
+        @apply text-heading-xs;
+        letter-spacing: -0.1px;
+        line-height: 24px;
+        font-weight: 700;
+        font-feature-settings: "ss02";
+    }
+
+    p.xl {
+        @apply text-body-xl;
+        letter-spacing: -0.2px;
+        line-height: 32px;
+    }
+
+    p.lg {
+        @apply text-body-lg;
+        letter-spacing: -0.1px;
+        line-height: 32px;
+    }
+
+    p {
+        @apply text-body;
+        line-height: 24px;
+    }
+
+    p.sm {
+        @apply text-body-sm;
+        line-height: 20px;
+    }
+
+    p.xs {
+        @apply text-body-xs;
+        letter-spacing: 0.1px;
+        line-height: 16px;
+    }
 }

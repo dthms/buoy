@@ -1,0 +1,15 @@
+.doc {
+    margin: 0;
+}
+
+.doc > h5 {
+    margin-top: 40px;
+}
+
+.doc > p {
+    margin: 12px 0 0 0;
+}
+
+.doc > img {
+    margin: 24px 0;
+}

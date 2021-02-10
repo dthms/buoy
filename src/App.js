@@ -28,7 +28,7 @@ function App() {
                       shortDescription
                       documentTitle
                       article {
-                        text
+                        html
                       }
                       slug
                     }
@@ -36,6 +36,7 @@ function App() {
               `
           )
           setDocs(docs)
+          // console.log(docs)
       }
       fetchDocs()
   }, []);

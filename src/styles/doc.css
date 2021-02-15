@@ -6,10 +6,46 @@
     margin-top: 40px;
 }
 
+.doc > h6 {
+    margin: 24px 0 0 0;
+}
+
 .doc > p {
-    margin: 12px 0 0 0;
+    margin: 8px 0 0 0;
+    color: #3C424C;
+}
+
+.doc > code {
+    font-size: 0.75rem !important;
 }
 
 .doc > img {
     margin: 24px 0;
 }
+
+.doc > blockquote {
+    color: #6C737F;
+    margin: 12px 0 0 0;
+    font-size: 14px;
+}
+
+.doc > .tag {
+    color: #515761;
+    margin: 12px 0 0 0;
+    background: #F9FAFB;
+    border: 1px solid #D3D6D9;
+    padding: 4px 8px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.doc > ol {
+    margin: 16px 0 16px 36px;
+    list-style: circle;
+    color: #3C424C;
+}
+
+.doc > ol > li {
+    margin: 4px 0 0 0;
+}
+

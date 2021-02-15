@@ -6,7 +6,8 @@ export default function NavigationDocs() {
         <nav className="flex w-1/5 flex-col space-y-8 flex-shrink">
             <div className="flex flex-col space-y-2">
                 <p className="sm font-semibold mb-1">Getting started</p>
-                <NavLink to="/docs" exact className="text-gray-600" activeClassName="activeLink">Getting started</NavLink>
+                <NavLink to="/docs" exact className="text-gray-600" activeClassName="activeLink">Home</NavLink>
+                <NavLink to="/docs/getting-started" exact className="text-gray-600" activeClassName="activeLink">Getting started</NavLink>
             </div>
             <div className="flex flex-col space-y-2">
                 <p className="sm font-semibold mb-1">Foundations</p>

@@ -14,7 +14,7 @@ function Document({ docs }) {
     return (
         <div className="flex flex-row lg:px-20 lg:space-x-12">
             <Navigation />
-            <div className="flex flex-grow w-full flex-col space-y-12">
+            <div className="flex flex-grow w-full flex-col">
                 <div className="space-y-4">
                     <h2>{item.documentTitle}</h2>
                     <p className="lg">{item.shortDescription}</p>
